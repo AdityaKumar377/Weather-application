@@ -16,7 +16,7 @@ const Weather = () => {
     
     const inputRef =  useRef()
     const [weatherData, setWeatherData] = React.useState(false);
-    const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
+    const apiKey = "e34b4c51d8c2b7bf48d5217fe52ff79e";
 
     const allIcons = {
         "01d": clear_icon,
